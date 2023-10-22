@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="styleshet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <title>Document</title>
+</head>
+<header>
+  <!--comienza navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./media/logo/vert blanco.png" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="inicio" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="yellow" href="#">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="yellow" href="#">Cómo comprar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="yellow" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="yellow" href="#">Dónde encontrarnos</a>
+          </li>
+          </form>
+      </div>
+    </div>
+  </nav>
+  <!--finaliza navbar-->
+</header>
+
+
+
+
+
+
+<main>
+  <h1> LA MÁS AMPLIA VARIEDAD EN <span class="spanintro"> <u>REPUESTOS, AUTOPARTES Y ACCESORIOS </u> </span> PARA TU
+    VEHÍCULO</h1>
+  <!--comienza carousel-->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./media/imágenes/7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./media/imágenes/11.jpg.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./media/imágenes/1.jpg.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--finaliza carousel-->
+</main>
+
+<body>
+  <section>
+    <h3 class="animate__animated animate__slideInRight"> Líneas PEUGEOT, FIAT y CITROËN </h3>
+    <article id="lineas" class="animate__animated animate__slideInRight">
+      <img src="/Media/Marcas/fiat.png" alt="logo de Fiat" width="15%">
+      <img src="/Media/Marcas/peugeot.png" alt="logo de Peugeot" width="15%">
+      <img src="/Media/Marcas/citroen.png" class="citroen" alt="logo de Citroen" width="18%">
+    </article>
+    <article>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam maxime est, saepe doloremque minus vel illum
+        natus eveniet, nesciunt earum perspiciatis quasi blanditiis distinctio voluptates quam nam aperiam, deserunt ut?
+      </p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto vero tempora dolore magni labore possimus
+        sapiente obcaecati cum corrupti odit sed, nam aliquid, minima dignissimos, doloremque nesciunt facere ut earum.
+      </p>
+    </article>
+  </section>
+
+  <!--comienza formulario-->
+
+  <section class="contacto">
+    <h3>CONTACTO</h3>
+    <form action="" method="get" class="form">
+      <label for="nombre" class="nombrel"> Nombre </label>
+      <input type="text" class="nombrei" name="nombre" placeholder="José..." required>
+      <label for="correo" class="correol">Correo electrónico</label>
+      <input type="email" class="correoi" name="correo" placeholder="joseperez@gmail.com" required>
+      <textarea name="consulta" cols="70" rows="10" placeholder="Describa su consulta aquí"></textarea>
+      <input type="submit" value="Enviar" id="botonenv" class="btnenviar">
+    </form>
+  </section>
+
+  <!--finaliza formulario-->
+
+  <!--comienza ubicación-->
+  <section class=lugar>
+    <h3> HORARIO DE ATENCIÓN:
+      <p class="horario"> Lunes a Viernes de 8:00 a 13:00 hs. / 15:30 a 19:30 hs. </p>
+      <p class="horario">Sábados: 8:30 a 13:00 hs.</p>
+      <h3> 📌 SUIPACHA 751 - San Miguel de Tucumán. </h3>
+      <h3 class="arg"> Argentina </h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.682985231226!2d-65.2168693251583!3d-26.818220989261174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c3f56e51367%3A0x4e8964316e9c5e3b!2sEl%20Emporio!5e0!3m2!1ses-419!2sar!4v1696555944123!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" width="10%" class="mapa"></iframe>
+  </section>
+
+  <!--finaliza ubicación-->
+
+  <footer class="copy">
+    <p class="copyd"> © EL EMPORIO 2023 </p>
+    <p class="copyn"> Cinthia Rivadeneira, todos los derechos reservados.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
