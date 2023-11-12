@@ -26,7 +26,7 @@ body{
 }
 
 #inicio {
-	color: #FFC100;
+	color: aliceblue;
 }
 
 #yellow {
@@ -40,6 +40,7 @@ body{
 .navbar-toggler {
 	background-color: #FFC100;
 }
+
 
 /****************************************************** finaliza navbar*/
 
