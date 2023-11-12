@@ -183,6 +183,36 @@ label {
 
 
 
+/****************************************************** quienes somos */
+.años {
+	font-size: 130%;
+	margin-top: 10%;
+	margin-bottom: 30%;
+	text-align: center;
+}
+
+
+.span_años {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/****************************************************** finaliza quienes somos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /****************************************************** inicia media queries */
 
 @media screen and (max-width: 991px) {
