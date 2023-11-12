@@ -4,8 +4,6 @@ html {
 }
 
 
-
-
 .container-fluid {
 	background-color: #001A57;
 	margin-top: -10px;
@@ -41,38 +39,17 @@ html {
 	background-color: #FFC100;
 }
 
+/****************************************************** finaliza navbar*/
 
+/****************************************************** comienza carousel*/
 
-@media screen and (max-width: 991px) {
-	.container-fluid {
-		display: flex;
-		flex-direction: row;
-		align-items: -165px;
-	}
-
-	.logo {
-		content: url('../media/logo/horiz\ blanco.png');
-		width:100%;
-		height: 80px;
-
-	}
-}
-
-
-
-
-/* finaliza navbar*/
-
-
-
-/* comienza carousel*/
 #carouselExampleFade {
 	width: 80%;
 	margin: auto;
 	margin-top: 15px;
 }
 
-/* finaliza carousel*/
+/****************************************************** finaliza carousel*/
 
 
 h1 {
@@ -90,7 +67,7 @@ h1 {
 }
 
 
-/* comienza sesión líneas*/
+/****************************************************** comienza sesión líneas*/
 
 h3 {
 	font-size: 20px;
@@ -116,9 +93,9 @@ p {
 }
 
 
-/* finaliza sesión líneas*/
+/****************************************************** finaliza sesión líneas*/
 
-/* comienza sesión formulario*/
+/****************************************************** comienza sesión formulario*/
 form {
 	margin: 5px 20%;
 	display: flex;
@@ -158,23 +135,9 @@ label {
 }
 
 
-@media screen and (max-width: 991px) {
-	textarea{
-		height: 150px;
-		width: 400px;
-	}
+/****************************************************** finaliza sesión de contacto */
 
-}
-
-
-
-
-
-
-
-/* finaliza sesión de contacto */
-
-/* inicia horario y mapa */
+/****************************************************** inicia horario y mapa */
 .horario {
 	font-size: 100%;
 }
@@ -190,31 +153,9 @@ label {
 }
 
 
-@media screen and (max-width: 991px) {
-	.mapa{
-		height: 150px;
-		width: 400px;
-		margin: 100px;
-	}
+/****************************************************** finaliza horario y mapa */
 
-}
-
-@media screen and (max-width: 500px) {
-	.mapa{
-		height: 150px;
-		width: 400px;
-		margin: auto;
-	}
-
-}
-
-
-
-
-
-/* finaliza horario y mapa */
-
-/* inicia footer */
+/****************************************************** inicia footer */
 .copy {
 	background-color: #706f6f;
 	color: #fff;
@@ -235,4 +176,44 @@ label {
 	margin-top: -30px;
 }
 
-/* finaliza footer*/
+/****************************************************** finaliza footer*/
+
+
+
+/****************************************************** inicia media queries */
+
+@media screen and (max-width: 991px) {
+	.container-fluid {
+		display: flex;
+		flex-direction: row;
+		align-items: -165px;
+	}
+
+	.logo {
+		content: url('../media/logo/horiz\ blanco.png');
+		width: 100%;
+		height: 80px;
+	}
+
+	textarea {
+		height: 150px;
+		width: 400px;
+	}
+
+	.mapa {
+		height: 150px;
+		width: 400px;
+		margin: 100px;
+	}
+
+}
+
+
+@media screen and (max-width: 500px) {
+	.mapa {
+		height: 150px;
+		width: 400px;
+		margin: auto;
+	}
+
+}
