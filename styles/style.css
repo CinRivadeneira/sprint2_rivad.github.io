@@ -184,7 +184,7 @@ label {
 
 
 /****************************************************** quienes somos */
-.años {
+.pestañas {
 	font-size: 130%;
 	margin-top: 10%;
 	margin-bottom: 30%;
@@ -201,7 +201,9 @@ label {
 
 
 
-
+#pestañacompra{
+	margin-top: 5%;
+}
 
 
 
