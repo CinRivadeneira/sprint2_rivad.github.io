@@ -173,11 +173,58 @@ p {
 	margin-bottom: 1%;
 }
 
-.cat{
-	width: 20px;
-	height: 30px;
+.servicios{
+    display:grid;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+
 }
 
+.cardconteiner{
+    width:100%;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    border: 500px;
+}
+
+.card{
+    width: 350px;
+    height: 570px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #eceff1;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: inline-block;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color:#042133;
+}
+
+.card .contenido h3{
+    margin-bottom: 15px;
+}
+
+.iconitos{
+    padding: 10px 110px;
+}
 
 
 
