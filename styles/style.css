@@ -173,48 +173,48 @@ p {
 	margin-bottom: 1%;
 }
 
-.catalogo{
-    display: flex;
+.catalogo {
+	display: flex;
 	justify-content: center;
 }
 
 
-.card{
-    width: 350px;
-    height: 450px;
-    margin: 20px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    transition: all 400ms ease;
-    display: inline-block;
+.card {
+	width: 350px;
+	height: 450px;
+	margin: 20px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	cursor: default;
+	transition: all 400ms ease;
+	display: inline-block;
 	align-items: center;
 	justify-content: center;
 }
 
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
+.card:hover {
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-3%);
 }
 
-.card .contenido{
+.card .contenido {
 	width: 100%;
 	height: 100px;
-	text-align: center;	
+	text-align: center;
 }
 
-.card .contenido p{
-    line-height: 1.5;
-    color:#042133;
+.card .contenido p {
+	line-height: 1.5;
+	color: #042133;
 }
 
-.card .contenido h3{
-background-color: none;
+.card .contenido h3 {
+	background-color: none;
 }
 
-.articulo{
-    padding: 10px 110px;
+.articulo {
+	padding: 10px 110px;
 	height: 80%;
 }
 
@@ -223,33 +223,45 @@ background-color: none;
 	height: 100%;
 	margin-left: -30px;
 }
+
 .imgart2 {
 	height: 100%;
 	margin-left: -30px;
 	margin-top: -20px;
 }
+
 .imgart3 {
 	height: 100%;
-	margin-left: -80px ;	
+	margin-left: -80px;
 }
 
 
-.colores button{
-	background-color: antiquewhite;
+.colorselect{
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.colora{
-	background: rgb(195, 199, 201);
-    border-radius: 50%;
-    width:30px;
-    height: 30px;
+.colorselect div{ 
+	background:#042133;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top: -25px;
+	cursor:pointer;
 }
-.colorg{
-	background: rgb(4, 85, 235);
-    border-radius: 50%;
-    width:30px;
-    height: 30px;
-}
+
+.colorselect #azul{
+	background: rgb(0, 89, 255);
+} 
+
+.colorselect #gris{
+	background: rgb(184, 183, 187);
+} 
+
+
 /****************************************************** finaliza como comprar*/
 
 
