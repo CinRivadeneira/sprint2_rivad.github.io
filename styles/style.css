@@ -2,7 +2,7 @@ html {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body{
+body {
 	background-color: ghostwhite;
 	display: flex;
 	flex-direction: column;
@@ -112,14 +112,14 @@ p {
 	height: 150px;
 }
 
-.maps{
+.maps {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	margin: 90px 50px;
 }
 
-.maps .direccion{
+.maps .direccion {
 	margin-right: 60px;
 }
 
@@ -168,16 +168,26 @@ p {
 /****************************************************** finaliza quienes somos*/
 
 /****************************************************** inicia como comprar */
-#pestañacompra{
+#pestañacompra {
 	margin-top: 5%;
+	margin-bottom: 1%;
 }
+
+.cat{
+	width: 20px;
+	height: 30px;
+}
+
+
+
+
 /****************************************************** finaliza como comprar*/
 
 
 /****************************************************** inicia contacto*/
 
 
-.redes{
+.redes {
 	display: flex;
 	justify-content: center;
 	font-size: 40px;
@@ -185,20 +195,22 @@ p {
 	flex-grow: 1;
 }
 
-#facebook, #instagram, #whatsapp{
+#facebook,
+#instagram,
+#whatsapp {
 	margin: 30px 70px;
 	cursor: pointer;
 	text-decoration: none;
-	color:#001A57;
+	color: #001A57;
 }
 
-.redes a:hover{
+.redes a:hover {
 	border-radius: 50%;
 	transition: all .4s ease-in-out;
 	transform: scale(1.2);
 }
 
-#contactpage{
+#contactpage {
 	flex-grow: 1;
 }
 
@@ -268,13 +280,13 @@ label {
 		width: 400px;
 	}
 
-	.maps{
+	.maps {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.mapa{
+	.mapa {
 		height: 150px;
 		width: 100%;
 		align-items: center;
@@ -282,5 +294,3 @@ label {
 	}
 
 }
-
-
