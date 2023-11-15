@@ -220,22 +220,26 @@ p {
 	margin-left: -45px;
 }
 
-.imgart2 {
-	height: 100%;
-	margin-left: -60px;
-	margin-top: -30px;
+
+.imgart2{
+	height: 90%;
+	margin-left: -50px;
 }
+
+#imgchanget{
+	height: 90%;
+	margin-left: -80px;
+	margin-top: 27px;
+}
+
 
 .imgart3 {
-	height: 100%;
-	margin-left: -80px;
+	width: 230%;
+	margin-left: -90px;
+	margin-top: 40px;
 }
 
-#imgchangec{
-	height: 100%;
-	margin-left: -80px;
-	margin-top: -80px;
-}
+
 
 
 .colorselect{
