@@ -253,12 +253,21 @@ p {
 	cursor:pointer;
 }
 
-.colorselect #azul{
+.colorselect #azula{
 	background: rgb(0, 89, 255);
 } 
 
-.colorselect #gris{
+.colorselect #grisa{
 	background: rgb(184, 183, 187);
+} 
+
+
+.colorselect #azult{
+	background: rgb(20, 46, 94);
+} 
+
+.colorselect #rojot{
+	background: rgb(94, 20, 20) ;
 } 
 
 
