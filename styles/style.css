@@ -205,12 +205,8 @@ p {
 }
 
 .card .contenido p {
-	line-height: 1.5;
-	color: #042133;
-}
-
-.card .contenido h3 {
-	background-color: none;
+	margin-top: auto;
+	color: #001A57;
 }
 
 .articulo {
@@ -221,18 +217,24 @@ p {
 
 .imgart1 {
 	height: 100%;
-	margin-left: -30px;
+	margin-left: -45px;
 }
 
 .imgart2 {
 	height: 100%;
-	margin-left: -30px;
-	margin-top: -20px;
+	margin-left: -60px;
+	margin-top: -30px;
 }
 
 .imgart3 {
 	height: 100%;
 	margin-left: -80px;
+}
+
+#imgchangec{
+	height: 100%;
+	margin-left: -80px;
+	margin-top: -80px;
 }
 
 
@@ -249,7 +251,7 @@ p {
 	height: 30px;
 	border-radius: 50%;
 	margin-right: 10px;
-	margin-top: -25px;
+	margin-top: -50px;
 	cursor:pointer;
 }
 
