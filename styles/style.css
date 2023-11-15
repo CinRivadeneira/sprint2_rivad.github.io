@@ -270,6 +270,13 @@ p {
 	background: rgb(94, 20, 20) ;
 } 
 
+.colorselect #negroc{
+	background: rgb(0, 2, 7);
+} 
+
+.colorselect #rojoc{
+	background: rgb(163, 16, 16) ;
+} 
 
 /****************************************************** finaliza como comprar*/
 

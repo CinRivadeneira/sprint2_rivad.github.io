@@ -20,8 +20,21 @@ let imgChanget = document.getElementById("imgchanget");
 tazaAzulBtn.onclick = function(){
     imgchanget.src = "../media/repuestos/tazaazul.jpeg";
 }
-console.log("hola");
 
 tazaRojoBtn.onclick = function(){
     imgchanget.src = "../media/repuestos/tazaroja.jpeg";
+}
+
+
+
+
+let asientoNegrolBtn = document.getElementById("negroc");
+let asientoRojoBtn = document.getElementById("rojoc");
+let imgChangec = document.getElementById("imgchangec");
+
+asientoNegrolBtn.onclick = function(){
+    imgchangec.src = "../media/repuestos/cubreasientonegro.PNG";
+}
+asientoRojoBtn.onclick = function(){
+    imgchangec.src = "../media/repuestos/cubreasientorojo.PNG";
 }
