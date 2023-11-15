@@ -1,6 +1,6 @@
 let alfombraAzulBtn = document.getElementById("azula");
 let alfombraGrisBtn = document.getElementById("grisa");
-let imgChange = document.getElementById("imgchangea");
+let imgChangea = document.getElementById("imgchangea");
 
 alfombraAzulBtn.onclick = function(){
     imgchangea.src = "../media/repuestos/alfombraazul.jpeg";
@@ -10,6 +10,7 @@ alfombraGrisBtn.onclick = function(){
     imgchangea.src = "../media/repuestos/alfombragris.jpeg";
 }
 
+console.log("holaa");
 
 
 
